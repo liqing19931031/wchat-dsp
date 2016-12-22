@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/popu/popu",
+    "pages/report/report",
+    "pages/user/user"
+  ],
+  "window": {
+    "navigationBarTitleText": "Demo"
+  },
+  "tabBar": {
+    "list": [
+      { 
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/popu/popu",
+        "text": "推广"
+      },
+      {
+        "pagePath": "pages/report/report",
+        "text": "报告"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "账户"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
